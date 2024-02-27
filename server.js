@@ -24,3 +24,6 @@ io.on("connection", (socket) => {
         io.emit("messages", (msg));
     });
 })
+
+
+export default server;
